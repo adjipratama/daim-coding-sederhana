@@ -6,7 +6,7 @@
     $conn = new database();
     $db = $conn->connect();
 
-    // Membuat query untuk menampilkan seluruh data pada tb_mahasiswa
+    // Membuat query untuk menampilkan data pada tb_mahasiswa
     $sql = "SELECT * FROM tb_mahasiswa WHERE IdMahasiswa='$_GET[IdMahasiswa]'";
 
     // Eksekusi query
