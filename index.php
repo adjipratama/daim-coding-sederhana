@@ -15,10 +15,10 @@
 
 <html>
     <body>
+        <button onclick="document.location='create_form.php'">Tambah Data</button></br></br>
+
         <!-- Cek Jumlah Data -->
         <?php if($result->num_rows > 0): ?>
-
-            <button onclick="document.location='create_form.php'">Tambah Data</button></br></br>
 
             <!-- Tabel data -->
             <table border="1" style="border-collapse: collapse;">
